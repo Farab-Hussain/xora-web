@@ -1,0 +1,23 @@
+[33mcommit 3db07b98bd38bb871202cc98ec89c997cca490c4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Farab-Hussain <sudyanbaloch302@gmail.com>
+Date:   Tue Oct 15 03:19:00 2024 +0500
+
+    Added a features section and a constant folder with an index. jsx.
+
+[33mcommit 54e80e7d50d94a5e88abca5f9e5bd79349b819a7[m
+Author: Farab-Hussain <sudyanbaloch302@gmail.com>
+Date:   Tue Oct 15 02:23:44 2024 +0500
+
+    I created modular components (Header and Hero) in my React app for better organization.
+
+[33mcommit 75ae44af507c9f20a7fd2b951adbcf6b0acb1b20[m
+Author: Farab-Hussain <sudyanbaloch302@gmail.com>
+Date:   Mon Oct 14 02:44:52 2024 +0500
+
+    The `Header` component is a responsive navigation element that imports `clsx` for conditional class names, `useState` from React for state management, and `LinkScroll` from `react-scroll` for smooth scrolling. It includes a `NavLink` functional component that renders styled links for navigation. The main `Header` component maintains an `isOpen` state to track the mobile menu's visibility, featuring a fixed position at the top of the page with a logo and navigation links for "Features," "Pricing," "FAQ," and "Download." A toggle button allows users to open or close the mobile menu, changing the icon based on the `isOpen` state, while the mobile menu's visibility and opacity are controlled by conditional classes. Additionally, background images are displayed in a specific layout for mobile devices. Overall, the `Header` component enhances user experience by providing a user-friendly navigation system that adapts to different screen sizes, featuring smooth scrolling links, a dynamic mobile menu, and visually appealing backgrounds.
+
+[33mcommit bbbe0a017318df80e0306facba90cf5a21552514[m
+Author: Farab-Hussain <sudyanbaloch302@gmail.com>
+Date:   Mon Oct 14 00:43:49 2024 +0500
+
+    SetUp
